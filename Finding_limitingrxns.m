@@ -1,4 +1,4 @@
-function [solution, number_rxns, percentage_change, vector_distribution_pFBA, vector_distribution_FBA] = OptimizedGrowth (gr, enz_rxns, ub, lb, optimization)
+function [solution, number_rxns, percentage_change, vector_distribution_pFBA, vector_distribution_FBA] = Finding_limitingrxns(gr, enz_rxns, ub, lb, optimization)
 %
 %We designed an LP problem to identify the reactions that we need to relax
 %in order to achieve an experimental growth rate. We implemented this problem 
