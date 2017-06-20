@@ -115,7 +115,7 @@ new_matrix(end+1,:) = zeros(size(new_matrix(1,:)));
 alfas = 1686:3370;
 new_matrix(end,alfas) = +1;
 
-% Second, we add an artificial reaction that "consumes" the above artificial metabolite and mimics the sum of alphas.
+% Second, we add an artificial reaction that "consumes" the above artificial metabolite (mimicking the consume of alphas)
 new_matrix(:,end + 1) = zeros(size(new_matrix(:,1)));
 new_matrix(end, end) = -1;
 
