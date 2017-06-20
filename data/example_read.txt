@@ -1,6 +1,6 @@
 For this example we are going to simulate Growth on CH (rich medium) using SMM (poor medium) as Baseline. We provide the following input data.
 
-metabolic model: iBsu1103
+iBsu1103 metabolic model: gb-2009-10-6-r69-s4.xml
 gr : growth rates vector
 lb : Lower bound vector (Vmin * GeX_ratio)
 ub : Upper bound vector (Vmax * GeX_ratio)
