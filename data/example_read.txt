@@ -1,4 +1,4 @@
-For this example we are going to simulate Growth on CH (rich medium) using SMM (poor medium) as Baseline. We provide the following input data.
+We provide input data for the simulation of growth on CH using SMM as Baseline.
 
 iBsu1103 metabolic model: gb-2009-10-6-r69-s4.xml
 gr : growth rates vector
