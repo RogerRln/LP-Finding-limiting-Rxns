@@ -1,5 +1,5 @@
-For this example we are going to simulate Growth on CH (rich medium) using SMM (poor medium) as Baseline. We provide the following data that workinputs for the function are:
+For this example we are going to simulate Growth on CH (rich medium) using SMM (poor medium) as Baseline. We provide the following input data.
+
 gr : growth rates vector
 lb : Lower bound (Vmin * GeX_ratio) vector
 ub : Upper bound (Vmax * GeX_ratio) vector
-Optimization : {1,2}
