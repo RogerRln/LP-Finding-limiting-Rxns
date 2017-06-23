@@ -1,4 +1,4 @@
-We provide the metabolic model and arguments for the function OptimizedGrowth.m that will simulate growth on CH using a poor medium (SMM) as Baseline. Also, the function will return the reactions that where relaxed in order to achieve the experimental growth rate on CH.
+We provide the metabolic model and arguments for the function Finding_limitingrxns.m that will simulate growth on CH using a poor medium (SMM) as Baseline. Also, the function will return the reactions that where relaxed in order to achieve the experimental growth rate on CH.
 
 iBsu1103 metabolic model: gb-2009-10-6-r69-s4.xml
 gr : growth rates vector
