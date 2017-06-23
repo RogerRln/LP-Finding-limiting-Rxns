@@ -1,12 +1,11 @@
 function [solution, number_rxns, percentage_change, vector_distribution_pFBA, vector_distribution_FBA] = Finding_limitingrxns(gr, enz_rxns, ub, lb, optimization)
 %
-%We designed an LP problem to identify the reactions that we need to relax
-%in order to achieve an experimental growth rate. We implemented this problem 
-%in an iterative way, i.e. we used a vector of ascendant growth rates with the 
-%last element of this vector as the experimental growth rate we wanted to reach, 
-%then we iterated over this vector and so we calculated the minimum number of relaxed 
-%reactions or minimum amount added to the bounds of the enzymatic reactions in order 
-%to achieve the different ascendant growth rates.
+% We designed an LP problem to identify the reactions that we need to relax
+% in order to achieve an experimental growth rate. We implemented this problem 
+% in an iterative way, i.e. we used a vector of ascendant growth rates with the 
+% last element of this vector as the experimental growth rate we wanted to reach.
+% We iterated over this vector and so the LP calculated the minimum set of reactions 
+% whose bounds are being expanded in order to reach that growth rate.
 %
 % OPTIMIZATION 1:
 % Minimum number of reactions to be relaxed in order to achieve a higher growth rate.
