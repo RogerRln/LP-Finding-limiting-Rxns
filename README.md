@@ -5,7 +5,7 @@ Here, I provided the data (see data directory) for the simulation of growth on C
 
 Requirements for running the above simulation:
 1. MATLAB
-2. Cobra-Toolbox library
-3. solveCobraLP.m (function modified from Cobra-toolbox library (to allow binary variables in the LP formulation) that solves the LP we gave as argument to the function)
-4. OptimizedGrowth.m (function for finding the relaxed reactions)
-5. pFBA_simple.m (This function finds the minimum flux through the network and returns the minimized flux and an irreversible model)
+2. Cobra Toolbox library
+3. solveCobraLP.m (function modified from Cobra toolbox library that solves the LP we gave as argument to this function)
+4. OptimizedGrowth.m (I wrote this function for finding the relaxed reactions)
+5. pFBA_simple.m (function modified from Cobra toolbox that finds the minimum flux through the network and returns the minimized flux and an irreversible model)
