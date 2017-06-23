@@ -1,7 +1,7 @@
 # LP-Finding-limiting-Rxns
 LP Problem implemented in MATLAB that identify the Enzymatic Reactions whose bounds need to be expanded in order to achieve the experimental Growth Rate on different media conditions.
 
-Here, I provided the data (look at data directory) for the simulation of growth on CH condition using SMM condition as Baseline. This example covers the issue of trying to predict growth on a rich medium using a poor medium as a Baseline (training condition for our model).
+Here, I provided the data (data directory) for the Growth simulation on CH (rich medium) using SMM (poor medium) as Baseline. This example covers the issue of trying to predict growth on a rich medium using a poor medium as Baseline (training condition for our model).
 
 Requirements for running the above simulation:
 1. MATLAB
