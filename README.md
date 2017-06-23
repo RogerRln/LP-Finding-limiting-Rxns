@@ -8,4 +8,4 @@ Requirements for running the above simulation:
 2. Cobra-Toolbox library
 3. solveCobraLP.m (function modified from Cobra-toolbox library (to allow binary variables in the LP formulation) that solves the LP we gave as argument to the function)
 4. OptimizedGrowth.m (function for finding the relaxed reactions)
-5. pFBA_simple (This function finds the minimum flux through the network and returns the minimized flux and an irreversible model)
+5. pFBA_simple.m (This function finds the minimum flux through the network and returns the minimized flux and an irreversible model)
