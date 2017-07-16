@@ -1,4 +1,4 @@
-We provide the metabolic model and inputs of the function Finding_limitingrxns.m that simulates growth on CH at different growth rates. The function will find the reactions that need to be relaxed in order to achieve the fixed growth rate.
+We provide the metabolic model and inputs for the example of growth simulation on CH at different growth rates. The matlab function will find the reactions that need to be relaxed in order to achieve the fixed growth rate.
 
 iBsu1103 metabolic model: gb-2009-10-6-r69-s4.xml
 
