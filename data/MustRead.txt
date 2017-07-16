@@ -8,5 +8,5 @@ lower bound : Lower bound vector (Vmin * GeX_ratio)
 upper bound : Upper bound vector (Vmax * GeX_ratio)
 
 growth_rates_vector.txt File with one column:
-Growth rates: this column contains the growth rates in ascending order over which the function is iterating and finding reactions to relaxed. The last element of this vector is the experimental growth rate of CH.
+Growth rates: this column contains a list of growth rates in ascending order, the Finding_limitingrxns.m function iterates over this list finding reactions whose bounds need to be relaxed in order to achieve the corresponding fixed growth rate. The last element of this vector is the experimental growth rate of CH.
 
