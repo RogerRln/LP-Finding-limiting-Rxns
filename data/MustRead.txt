@@ -1,8 +1,12 @@
-We provide the metabolic model and arguments for the function Finding_limitingrxns.m that will simulate growth on CH at different growth rates. Also, the function will return the reactions whose bounds where relaxed in order to achieve the experimental growth rate on CH.
+We provide the metabolic model and inputs of the function Finding_limitingrxns.m that simulates growth on CH at different growth rates. The function will find the reactions that need to be relaxed in order to achieve the fixed growth rate.
 
 iBsu1103 metabolic model: gb-2009-10-6-r69-s4.xml
-gr : growth rates vector
-lb : Lower bound vector (Vmin * GeX_ratio)
-ub : Upper bound vector (Vmax * GeX_ratio)
-enz_rxns : Vector with the Identifiers of all the Enzymatic Rxns
+
+enzymatic_rxns_and_bounds.xlsx File with three columns:
+enzymatic-rxn IDs : Vector with the Identifiers of all the Enzymatic Rxns
+lower bound : Lower bound vector (Vmin * GeX_ratio)
+upper bound : Upper bound vector (Vmax * GeX_ratio)
+
+growth_rates_vector.txt File with one column:
+Growth rates: this column contains the growth rates in ascending order over which the function is iterating and finding reactions to relaxed. The last element of this vector is the experimental growth rate of CH.
 
