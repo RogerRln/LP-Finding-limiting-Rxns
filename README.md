@@ -9,4 +9,4 @@ Please install:
 3. LP solver (Gurobi, glpk, cplex) in order to run the above function.
 
 Read:
-1. Please read the Run_finding_limiting_rxns.m (go to codes directory) for more information about how to run the Finding_limitingrxns.m function. This file also contains a list of requirements for properly running the function.
+1. Please read the Run_finding_limiting_rxns.m (go to codes directory) for more information about how to run the Finding_limitingrxns.m function. The file also contains a list of requirements for properly running the function.
