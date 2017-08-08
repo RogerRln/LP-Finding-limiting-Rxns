@@ -1,11 +1,12 @@
 # LP-Finding-limiting-Rxns
 LP Problem implemented in MATLAB that helps to identify the Enzymatic Reactions whose bounds need to be relaxed in order to achieve the experimental Growth Rate under different growth media conditions.
 
-Here, I provided the data (see data directory) for the Growth simulation on CH (rich medium) using SMM (poor medium) as baseline condition. This example covers the issue of trying to predict growth on a rich medium using a poor medium as baseline (i.e. training condition).
+We designed this LP problem with the aim of identifying the minimum number of changes on the bounds of the enzymatic reactions that allow a Biomasss flux prediction be equal to the experimental growth rate of any of the 11 environmental conditions for which we have experimental data. We implement this LP problem on a Gene expression-bounded (using ) metabolic model. We use a vector of ascendant growth rates with the last element of this vector as the experimental growth rate we want to reach. Then, we iterate over this vector and we fix the biomass reaction to the ith-element of the growth rates vector. Finally, we Optimize the LP problem by minimizing the number of changes on the bounds of the enzymatic reactions required to achieve the experimental growth rate.
 
-Requirements for running the above simulation:
-1. MATLAB
-2. Cobra Toolbox library
-3. solveCobraLP.m (function modified from Cobra toolbox library to solve an LP problem)
-4. Finding_limitingrxns.m (I wrote this function for finding the relaxed reactions)
-5. pFBA_simple.m (function modified from Cobra toolbox used for finding the minimum flux through the network while maintaining a maximum growth)
+Please, install.
+1. MATLAB.
+2. Cobra Toolbox
+3. LP solver (Gurobi, glpk, cplex) in order to run the above function.
+
+Read:
+1. Please read the Run_finding_limiting_rxns.m for more information about how to run the Finding_limiting_rxns.m function. This file also constains a list of requierements for properly running the function.
