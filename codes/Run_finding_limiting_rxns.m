@@ -1,13 +1,14 @@
 % Run the Finding_limitingrxns MATLAB function file.
 
-% You need to have the below files on your working directory (Directory where Finding_limitingrxns.m file is placed) in order to run the function
+% You need to have the below files on your working directory (Directory where Finding_limitingrxns.m file is placed) in order to run the function:
 % 1. Bacillus subtilis metabolic model (gb-2009-10-6-r69-s4.xml)
 % 2. Media composition file (media_composition.xlsx)
-% 3. Model data and Meta data file (Model_data_and_metadata)
+% 3. Model data and Meta data file (Model_data_and_metadata.xlsx)
 % 4. File with the Enzymatic Reactions Indices (enzymatic_rxns.txt)
-% 5. Python file 'gene_ratios.py', python function for calculating the Gene Expression Ratios.
-% 6. Gene Expression Matrix (expression_normalized.csv, input for the python function).
-% 7. pFBA_simple.m (matlab function for Running pFBA and retrieve the parsimonious flux distribution)
+% 5. Python file 'gene_ratios.py', python function for calculating the Gene Expression Ratios
+% 6. Gene Expression Matrix (expression_normalized.csv, input for the python function)
+% 7. pFBA_simple.m (matlab function for Running pFBA and for retrieving the parsimonious flux distribution)
+% 8. solveCobraLP.m (matlab function that was modified in order to accept binary variables, please place this function inside Solver folder, the folder is inside the Cobra Toolbox directory)
 
 
 % Set up gurobi as LP solver (Move to the Directory where Gurobi is installed and Run the following command)
