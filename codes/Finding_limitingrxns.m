@@ -26,7 +26,7 @@ function [solution, number_rxns, percentage_change, vector_distribution_pFBA, ve
 %
 %   tested_condition = The "label" of the Growth condition we want to test. We constrain this condition using Gene Expression and Environmental constraints.
 %   baseline_condition =  The "label" of the Baseline condition, i.e. Training point of our model.
-%   optimization =  1, for runnin Optimization 1. 2, for running Optimization 2.
+%   optimization =  1, Run Optimization 1. 2, Run Optimization 2.
 %
 % Output:
 %
